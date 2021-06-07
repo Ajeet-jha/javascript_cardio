@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon matrix_operations/index.js"
+    "set_theory": "nodemon cardio1.0/set_operations/index.js",
+    "matrix": "nodemon cardio1.0/matrix_operations/index.js"
   },
   "repository": {
     "type": "git",
