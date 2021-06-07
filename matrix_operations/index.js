@@ -1,5 +1,4 @@
 class matrix_operations {
-
   constructor(arr1, arr2) {
     this.arr1 = arr1;
     this.arr2 = arr2;
@@ -36,7 +35,10 @@ class matrix_operations {
   
 }
 
-const newMatrix = new matrix_operations([1, 2, 3, 4, 5, 6],[2, 4, 6, 8, 10, 11])
+const newMatrix = new matrix_operations(
+    [1, 2, 3, 4, 5, 6], 
+    [2, 4, 6, 8, 10, 11]
+)
 console.log({
     "addition" : newMatrix.addition()
 })
