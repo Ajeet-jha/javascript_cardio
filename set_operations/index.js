@@ -27,10 +27,7 @@ class SetOperation {
   }
 }
 
-const arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const arr2 = [2, 4, 6, 8, 10, 11];
-
-const elements = new SetOperation(arr1,arr2);
+const elements = new SetOperation([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [2, 4, 6, 8, 10, 11]);
 console.log({
 "Union" : elements.union()
 });
