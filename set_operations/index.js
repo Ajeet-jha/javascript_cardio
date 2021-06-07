@@ -1,4 +1,5 @@
 class SetOperation {
+
   constructor(arr1, arr2) {
     (this.arr1 = arr1), (this.arr2 = arr2);
   }
