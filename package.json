@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "set_theory": "nodemon cardio1.0/set_operations/index.js",
-    "matrix": "nodemon cardio1.0/matrix_operations/index.js"
+    "matrix": "nodemon cardio1.0/matrix_operations/index.js",
+    "strings": "nodemon cardio2.0/string_operations/index.js",
+    "numbers": "nodemon cardio2.0/number_operations/index.js"
   },
   "repository": {
     "type": "git",
